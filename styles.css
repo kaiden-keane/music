@@ -56,7 +56,7 @@ nav {
     margin-bottom: 10px;
 }
 
-.artist .name {
+.artist .artist__name {
     text-align: center;
     font-size: 5rem;
     background-image: linear-gradient(to bottom right, blue, red);
@@ -69,6 +69,13 @@ nav {
     font-size: 3rem;
     text-align: center;
 }
+
+/* making singles and album sections beside each other */
+/*      will first need to make it change layout on small devices */
+/* .media__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
 
 
 /* album and single lists */
