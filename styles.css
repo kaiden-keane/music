@@ -58,7 +58,7 @@ nav {
 
 .artist .name {
     text-align: center;
-    font-size: 50px;
+    font-size: 5rem;
     background-image: linear-gradient(to bottom right, blue, red);
     background-clip: text;
     color: transparent;
@@ -66,23 +66,39 @@ nav {
 
 .artist h2 {
     color: #444444;
+    font-size: 3rem;
     text-align: center;
 }
 
 .music__list{
     list-style: none;
+    display: flex;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    
 }
 
 
 .music__list li a{
-    color: blue;
     transition: all 0.3s ease 0s;
 }
 
-.music__list li a:hover {
-    color: #c0c0c0;
+.media {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    
+}
+
+.media img{
+    height: 100%;
+    width: 100%;
+}
+
+.media h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
 }
 
 /* .artist .albums {
