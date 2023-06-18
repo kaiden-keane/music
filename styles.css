@@ -48,7 +48,6 @@ nav {
 
 .artist {
     background-color: #c0c0c0;
-    /* display: inline-block; */
     border-radius: 10px;
     border: 5px solid #efefef;
     padding: 10px;
@@ -73,9 +72,9 @@ nav {
 .music__list{
     list-style: none;
     display: flex;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -86,8 +85,7 @@ nav {
 .media {
     height: 200px;
     width: 200px;
-    margin: 10px;
-    
+    margin: 20px 10px;
 }
 
 .media img{
