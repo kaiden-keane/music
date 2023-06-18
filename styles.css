@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #efefef;
+}
+
+/* navbar */
+nav {
+    /* background-image: linear-gradient(#037207, rgba(97, 155, 99, 0.9)); */
+    /* position: sticky; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    top: 0;
+}
+
+.nav__menu {
+    list-style: none;
+}
+
+.nav__menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__menu a, .nav__menu p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav__menu li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__menu li a:hover {
+    color: #c0c0c0;
+}
+
+.artist__collection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 5%;
+}
+
+.artist {
+    background-color: #c0c0c0;
+    /* display: inline-block; */
+    border-radius: 10px;
+    border: 5px solid #efefef;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.artist .name {
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to bottom right, blue, red);
+    background-clip: text;
+    color: transparent;
+}
+
+.artist h2 {
+    color: #444444;
+    text-align: center;
+}
+
+.music__list{
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.music__list li a{
+    color: blue;
+    transition: all 0.3s ease 0s;
+}
+
+.music__list li a:hover {
+    color: #c0c0c0;
+}
+
+/* .artist .albums {
+    color: blue;
+} */
