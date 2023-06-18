@@ -5,10 +5,9 @@
     color: #efefef;
 }
 
+
 /* navbar */
 nav {
-    /* background-image: linear-gradient(#037207, rgba(97, 155, 99, 0.9)); */
-    /* position: sticky; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -39,6 +38,8 @@ nav {
     color: #c0c0c0;
 }
 
+
+/* artist stuff */
 .artist__collection {
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +70,9 @@ nav {
     text-align: center;
 }
 
-.music__list{
+
+/* album and single lists */
+.media__list{
     list-style: none;
     display: flex;
     padding-bottom: 40px;
@@ -77,11 +80,13 @@ nav {
     justify-content: center;
 }
 
-
-.music__list li a{
+.media__list li a{
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
+
+/* how each image and title is displayed */
 .media {
     height: 200px;
     width: 200px;
@@ -98,7 +103,3 @@ nav {
     font-size: 1.5rem;
     color: #000000;
 }
-
-/* .artist .albums {
-    color: blue;
-} */
