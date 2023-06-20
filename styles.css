@@ -87,6 +87,12 @@ nav {
     justify-content: center;
 }
 
+.media__list li {
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+}
+
 .media__list li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
@@ -94,18 +100,13 @@ nav {
 
 
 /* how each image and title is displayed */
-.media {
-    height: 200px;
-    width: 200px;
-    margin: 20px 10px;
-}
 
-.media img{
+.media__list img{
     height: 100%;
     width: 100%;
 }
 
-.media h1 {
+.media__list h1 {
     text-align: center;
     font-size: 1.5rem;
     color: #000000;
