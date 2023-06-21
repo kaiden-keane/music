@@ -60,6 +60,7 @@ nav {
     text-align: center;
     font-size: 5rem;
     background-image: linear-gradient(to bottom right, blue, red);
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
@@ -69,13 +70,6 @@ nav {
     font-size: 3rem;
     text-align: center;
 }
-
-/* making singles and album sections beside each other */
-/*      will first need to make it change layout on small devices */
-/* .media__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
 
 
 /* album and single lists */
